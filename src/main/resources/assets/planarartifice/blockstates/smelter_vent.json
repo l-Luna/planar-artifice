@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "inventory": { "model": "planarartifice:smelter_vent", "transform": "forge:default-block" },      
+        "facing=north":    { "model": "planarartifice:smelter_vent" },
+        "facing=south":    { "model": "planarartifice:smelter_vent", "y": 180 },
+        "facing=east":     { "model": "planarartifice:smelter_vent", "y": 90 },
+        "facing=west":     { "model": "planarartifice:smelter_vent", "y": 270 }
+    }
+}

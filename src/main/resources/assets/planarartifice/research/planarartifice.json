@@ -1,0 +1,873 @@
+{
+    "entries": [{
+            "key": "RAREITEMS",
+            "name": "research.rareitems.title",
+            "icons": [
+                "minecraft:nether_star"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+
+            ],
+            "meta": [
+
+            ],
+            "location": [-7,
+                0
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.rareitems.stage.1.text",
+                    "required_item": [
+                        "minecraft:diamond"
+                    ]
+                },
+                {
+                    "text": "research.rareitems.stage.2.text",
+                    "required_item": [
+                        "minecraft:emerald"
+                    ]
+                },
+                {
+                    "text": "research.rareitems.stage.3.text",
+                    "required_item": [
+                        "minecraft:golden_apple"
+                    ]
+                },
+                {
+                    "text": "research.rareitems.stage.4.text",
+                    "required_item": [
+                        "minecraft:nether_star"
+                    ]
+                },
+                {
+                    "text": "research.rareitems.complete.text"
+                }
+            ]
+        },
+        {
+            "key": "THAUMICAPPLE",
+            "name": "research.magicapple.title",
+            "icons": [
+                "planarartifice:magic_apple"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "RAREITEMS@4",
+                "METALLURGY@3"
+            ],
+            "meta": [
+
+            ],
+            "location": [-7, -2],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.magicapple.stage.1.text",
+                    "required_craft": [
+                        "planarartifice:magic_apple"
+                    ],
+                    "recipes": [
+                        "planarartifice:magic_apple"
+                    ]
+                },
+                {
+                    "text": "research.magicapple.complete.text",
+                    "recipes": [
+                        "planarartifice:magic_apple"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ALKIMIUM",
+            "name": "research.alkimium.title",
+            "icons": [
+                "planarartifice:alkimium_ingot"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "METALLURGY@2"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                "ALCHEMICALSCIBETOOLS"
+            ],
+            "location": [
+                0, -3
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.alkimium.stage.1.text",
+                    "required_craft": [
+                        "planarartifice:alkimium_ingot"
+                    ],
+                    "recipes": [
+                        "planarartifice:alkimium_ingot"
+                    ]
+                },
+                {
+                    "text": "research.alkimium.complete.text",
+                    "recipes": [
+                        "planarartifice:alkimium_ingot",
+                        "planarartifice:alchemical_alkimium_construct"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ALCHEMICALSCIBETOOLS",
+            "name": "research.alchemicalscribetools.title",
+            "icons": [
+                "planarartifice:alchemical_scribing_tools"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+
+            ],
+            "meta": [
+                "HIDDEN"
+            ],
+            "location": [-1, -4],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                "text": "research.alchemicalscribetools.complete.text",
+                "recipes": [
+                    "planarartifice:alchemical_scribing_tools"
+                ]
+            }],
+            "addenda": [{
+                "text": "research.alchemicalscribetools.addendum.text",
+                "required_research": [
+                    "RECHARGEPEDESTAL"
+                ]
+            }]
+        },
+        {
+            "key": "ALKIMIUMAPPLICATIONS",
+            "name": "research.alkimiumsmeltery.title",
+            "icons": [
+                "planarartifice:alkimium_smeltery"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUM",
+                "ESSENTIASMELTER"
+            ],
+            "meta": [
+
+            ],
+            "location": [
+                2, -3
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.alkimiumsmeltery.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ALCHEMY;1"
+                    ]
+                },
+                {
+                    "text": "research.alkimiumsmeltery.complete.text",
+                    "recipes": [
+                        "planarartifice:alkimium_smeltery",
+                        "planarartifice:alchemical_alkimium_construct"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ALKIMIUMGOGGLES",
+            "name": "research.alkimiumgoggles.title",
+            "icons": [
+                "planarartifice:alkimium_goggles"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUMAPPLICATIONS"
+            ],
+            "meta": [
+
+            ],
+            "location": [
+                5, -3
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.alkimiumgoggles.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;INFUSION;2"
+                    ]
+                },
+                {
+                    "text": "research.alkimiumgoggles.complete.text",
+                    "recipes": [
+                        "planarartifice:alkimium_goggles"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ALKIMIUMDISTILLATION",
+            "name": "research.alkimiumimproveddistillation.title",
+            "icons": [
+                "planarartifice:smelter_aux",
+                "planarartifice:smelter_vent"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUMAPPLICATIONS",
+                "IMPROVEDSMELTING2"
+            ],
+            "meta": [
+
+            ],
+            "location": [
+                3, -2
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.alkimiumimproveddistillation.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ALCHEMY;1"
+                    ]
+                },
+                {
+                    "text": "research.alkimiumimproveddistillation.complete.text",
+                    "recipes": [
+                        "planarartifice:alkimiumimproveddistillationaux1",
+                        "planarartifice:alkimiumimproveddistillationaux2",
+                        "planarartifice:alkimiumimproveddistillationaux3",
+                        "planarartifice:alkimiumimproveddistillationaux4"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ALKIMIUMTHAUMIUMSMELTERY",
+            "name": "research.alkimiumsmelterythaumium.title",
+            "icons": [
+                "planarartifice:alkimium_smeltery_thaumium"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUMAPPLICATIONS",
+                "ESSENTIASMELTERTHAUMIUM"
+            ],
+            "meta": [
+
+            ],
+            "location": [
+                3, -4
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.alkimiumsmelterythaumium.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ALCHEMY;2"
+                    ]
+                },
+                {
+                    "text": "research.alkimiumsmelterythaumium.complete.text",
+                    "recipes": [
+                        "planarartifice:alkimium_smeltery_thaumium",
+                        "planarartifice:alchemical_alkimium_construct"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ALKIMIUMVOIDSMELTERY",
+            "name": "research.alkimiumsmelteryvoid.title",
+            "icons": [
+                "planarartifice:alkimium_smeltery_void"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUMTHAUMIUMSMELTERY",
+                "ESSENTIASMELTERVOID"
+            ],
+            "meta": [
+
+            ],
+            "location": [
+                4, -5
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.alkimiumsmelteryvoid.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ALCHEMY;3",
+                        "OBSERVATION;ALCHEMY;3"
+                    ]
+                },
+                {
+                    "text": "research.alkimiumsmelteryvoid.stage.2.text",
+                    "recipes": [
+                        "planarartifice:alkimium_smeltery_void"
+                    ],
+                    "required_craft": [
+                        "planarartifice:alkimium_smeltery_void"
+                    ]
+                },
+                {
+                    "text": "research.alkimiumsmelteryvoid.complete.text",
+                    "recipes": [
+                        "planarartifice:alkimium_smeltery_void"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "!Portal",
+            "name": "research.portal.title",
+            "icons": [
+                "planarartifice:dimensional_curiosity"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+
+            ],
+            "meta": [
+                "ROUND",
+                "HIDDEN"
+            ],
+            "location": [
+                0,
+                1
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                "text": "research.portal.complete.text"
+            }]
+        },
+        {
+            "key": "DIMENSIONALSINGULARITY",
+            "name": "research.singularity.title",
+            "icons": [
+                "planarartifice:dimensional_singularity"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "!Portal"
+            ],
+            "meta": [
+
+            ],
+            "location": [-2,
+                3
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.singularity.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;INFUSION;2",
+                        "THEORY;ALCHEMY;2",
+                        "THEORY;ARTIFICE;2",
+                        "THEORY;AUROMANCY;4"
+                    ]
+                },
+                {
+                    "text": "research.singularity.complete.text",
+                    "recipes": [
+                        "planarartifice:dimensional_singularity"
+                    ],
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "MIRRORTELEPORTER",
+            "name": "research.mirrorteleporter.title",
+            "icons": [
+                "planarartifice:teleporter_matrix"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "DIMENSIONALSINGULARITY",
+                "MIRROR"
+            ],
+            "meta": [
+
+            ],
+            "location": [-3,
+                4
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.mirrorteleporter.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;INFUSION;3",
+                        "THEORY;ARTIFICE;1"
+                    ]
+                },
+                {
+                    "text": "research.mirrorteleporter.stage.2.text",
+                    "recipes": [
+                        "planarartifice:teleporter_matrix"
+                    ],
+                    "required_craft": [
+                        "planarartifice:teleporter_matrix"
+                    ]
+                },
+                {
+                    "text": "research.mirrorteleporter.complete.text",
+                    "recipes": [
+                        "planarartifice:teleporter_matrix",
+                        "planarartifice:teleporter_matrix2",
+                        "planarartifice:mirror_teleporter"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "BISMUTH",
+            "name": "research.bismuth.title",
+            "icons": [
+                "planarartifice:bismuth_ingot"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUM",
+                "!Portal"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [-2, -1],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.bismuth.stage.1.text",
+                    "required_craft": [
+                        "planarartifice:bismuth_ingot"
+                    ],
+                    "required_knowledge": [
+                        "THEORY;INFUSION;1",
+                        "THEORY;AUROMANCY;2",
+                        "OBSERVATION;AUROMANCY;2"
+                    ],
+                    "recipes": [
+                        "planarartifice:bismuth"
+                    ]
+                },
+                {
+                    "text": "research.bismuth.complete.text",
+                    "recipes": [
+                        "planarartifice:bismuth",
+                        "planarartifice:aura_meter",
+                        "planarartifice:bismuth_claymore"
+                    ],
+                    "warp": 2
+                }
+            ]
+        },
+        {
+            "key": "FLUXSCRUBBER",
+            "name": "research.fluxscrubber.title",
+            "icons": [
+                "planarartifice:flux_scrubber"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "BISMUTH"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [
+                1, -1
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.fluxscrubber.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;AUROMANCY;1",
+                        "OBSERVATION;AUROMANCY;1"
+                    ]
+                },
+                {
+                    "text": "research.fluxscrubber.complete.text",
+                    "recipes": [
+                        "planarartifice:flux_scrubber"
+                    ],
+                    "warp": 4
+                }
+            ]
+        },
+        {
+            "key": "FOCUSLIGHT",
+            "name": "research.focuslight.title",
+            "icons": [
+                "focus:planarartifice.PRISMLIGHT"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "FOCUSFLUX"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [-4, -4],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.focuslight.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;AUROMANCY;1",
+                        "OBSERVATION;AUROMANCY;1"
+                    ]
+                },
+                {
+                    "text": "research.focuslight.stage.1.text"
+                }
+            ]
+        },
+        {
+            "key": "BELTOFSUSPENSION",
+            "name": "research.beltofsuspension.title",
+            "icons": [
+                "planarartifice:belt_of_suspension"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "DIMENSIONALSINGULARITY",
+                "CLOUDRING",
+                "CRYSTALFARMER",
+                "LEVITATOR"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [-1,
+                4
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.beltofsuspension.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ARTIFICE;1",
+                        "THEORY;PLANARARTIFICE;1"
+                    ]
+                },
+                {
+                    "text": "research.beltofsuspension.complete.text",
+                    "recipes": [
+                        "planarartifice:belt_of_suspension"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "FOCUSCOLOUR",
+            "name": "research.focuscolour.title",
+            "icons": [
+                "focus:planarartifice.FOCUSCOLOURED"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "FOCUSLIGHT"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [-5, -5],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.focuscolour.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;AUROMANCY;1",
+                        "OBSERVATION;AUROMANCY;1"
+                    ],
+                    "required_research": [
+                        "!Tinctura"
+                    ]
+                },
+                {
+                    "text": "research.focuscolour.complete.text"
+                }
+            ]
+        },
+        {
+            "key": "MIRROREDAMULET",
+            "name": "research.mirroramulet.title",
+            "icons": [
+                "planarartifice:mirrored_amulet"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "DIMENSIONALSINGULARITY",
+                "CRYSTALFARMER",
+                "MIRROR"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [-2,
+                5
+            ],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.mirroramulet.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ARTIFICE;2",
+                        "THEORY;PLANARARTIFICE;2",
+                        "THEORY;BASICS;3"
+                    ]
+                },
+                {
+                    "text": "research.mirroramulet.complete.text",
+                    "recipes": [
+                        "planarartifice:mirrored_amulet",
+                        "planarartifice:mirrored_amulet2"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "BISMUTHCASTERSGAUNTLET",
+            "name": "research.bismuthcaster.title",
+            "icons": [
+                "planarartifice:bismuth_caster"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "BISMUTH",
+                "FOCUSLIGHT"
+            ],
+            "meta": [
+
+            ],
+            "location": [-4, -2],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.bismuthcaster.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;AUROMANCY;2",
+                        "THEORY;ARTIFICE;1"
+                    ],
+                    "required_item": [
+                        "planarartifice:bismuth_ingot;2",
+                        "thaumcraft:focus_1"
+                    ]
+                },
+                {
+                    "text": "research.bismuthcaster.stage.2.text",
+                    "required_knowledge": [
+                        "THEORY;AUROMANCY;1"
+                    ],
+                    "required_item": [
+                        "planarartifice:flux_venting_circuit"
+                    ],
+                    "recipes": [
+                        "planarartifice:flux_vent"
+                    ]
+                },
+                {
+                    "text": "research.bismuthcaster.complete.text",
+                    "recipes": [
+                        "planarartifice:bismuth_caster",
+                        "planarartifice:flux_vent"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "MOREALCHEMY",
+            "name": "research.morealchemy.title",
+            "icons": [
+                "planarartifice:condensed_crystal_cluster"
+            ],
+            "category": "PLANARARTIFICE",
+            "parents": [
+                "ALKIMIUMAPPLICATIONS",
+                "HEDGEALCHEMY"
+            ],
+            "meta": [
+
+            ],
+            "siblings": [
+                ""
+            ],
+            "location": [1, -5],
+            "reward_item": [
+
+            ],
+            "reward_knowledge": [
+
+            ],
+            "stages": [{
+                    "text": "research.morealchemy.stage.1.text",
+                    "required_knowledge": [
+                        "THEORY;ARTIFICE;2",
+                        "THEORY;PLANARARTIFICE;2",
+                        "THEORY;BASICS;3"
+                    ]
+                },
+                {
+                    "text": "research.morealchemy.complete.text",
+                    "recipes": [
+                        "planarartifice:condensed_crystal_cluster1",
+                        "planarartifice:condensed_crystal_cluster2",
+                        "planarartifice:condensed_crystal_cluster3",
+                        "planarartifice:condensed_crystal_cluster4",
+                        "planarartifice:condensed_crystal_cluster5",
+                        "planarartifice:condensed_crystal_cluster6",
+                        "planarartifice:random_vis_crystal1",
+                        "planarartifice:random_vis_crystal2",
+                        "planarartifice:endereye",
+                        "planarartifice:redstone",
+                        "planarartifice:iron",
+                        "planarartifice:gold",
+                        "planarartifice:blaze_powder",
+                        "planarartifice:ender_pearls",
+                        "planarartifice:redstone2"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "INFUSIONENCHANTMENTII",
+            "name": "research.INFUSIONENCHANTMENTII.title",
+            "icons": ["planarartifice:textures/research/r_inf_enchant.png"],
+            "category": "PLANARARTIFICE",
+            "location": [-8, -4],
+            "parents": ["INFUSIONENCHANTMENT", "FOCUSLIGHT", "~MOREALCHEMY"],
+            "stages": [{
+                    "text": "research.INFUSIONENCHANTMENTII.stage.1.text",
+                    "required_knowledge": ["THEORY;INFUSION;2"],
+                    "required_item": ["thaumcraft:enchanted_placeholder;1;0;{ench:[{id:16s,lvl:1s}]}", "thaumcraft:enchanted_placeholder;1;0;{ench:[{id:51s,lvl:1s}]}", "thaumcraft:enchanted_placeholder;1;0;{ench:[{id:21s,lvl:2s}]}", "planarartifice:alkimium_block", "minecraft:fishing_rod"]
+                },
+                {
+                    "text": "research.INFUSIONENCHANTMENTII.complete.text",
+                    "recipes": ["planarartifice:IETransmutativeFake", "planarartifice:IEAuraInfusingFake", "planarartifice:IEProjectingFake"]
+                }
+            ]
+        },
+        {
+            "key": "MATSTUDYALKIMIUM",
+            "name": "research.MATSTUDYALKIMIUM.title",
+            "icons": ["planarartifice:alkimium_plate"],
+            "category": "PLANARARTIFICE",
+            "location": [5, -1],
+            "parents": ["ALKIMIUMGOGGLES", "ALKIMIUMDISTILLATION"],
+            "stages": [{
+                    "text": "research.MATSTUDYALKIMIUM.stage.1.text",
+                    "required_knowledge": ["THEORY;GOLEMANCY;   "]
+                }
+            ]
+        }
+    ]
+}

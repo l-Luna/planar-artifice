@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {          
+        "particle": "planarartifice:blocks/alkimium_smeltery_thaumium_front",
+    "down": "planarartifice:blocks/alkimium_smeltery_thaumium_side",
+    "up": "planarartifice:blocks/alkimium_smeltery_top",
+    "east": "planarartifice:blocks/alkimium_smeltery_thaumium_side",
+    "west": "planarartifice:blocks/alkimium_smeltery_thaumium_side",
+    "north": "planarartifice:blocks/alkimium_smeltery_thaumium_front_on",
+    "south": "planarartifice:blocks/alkimium_smeltery_thaumium_side"
+    }
+}

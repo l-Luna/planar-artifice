@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+        "particle": "planarartifice:blocks/teleporter_top",
+        "0": "planarartifice:blocks/teleporter_top",
+        "1": "planarartifice:blocks/teleporter_middle",
+        "2": "planarartifice:blocks/teleporter_side"
+        }
+    },
+    "variants": {
+        "normal": {
+            "model": "planarartifice:teleporter_bottom"
+        },
+        "inventory": {
+            "model": "planarartifice:teleporter_bottom"
+        }
+    }
+}

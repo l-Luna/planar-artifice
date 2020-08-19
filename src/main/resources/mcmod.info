@@ -1,0 +1,16 @@
+[
+{
+  "modid": "planarartifice",
+  "name": "Planar Artifice",
+  "description": "An unfinished addon for TC6.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pixel Breaker AKA Leppaisawesome"],
+  "credits": "Me, for making this, Azanor, for making TC6, MinerGuyLex, for lots of textures, and dycoldwind for Chinese Translations",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["Thaumcraft"]
+}
+]

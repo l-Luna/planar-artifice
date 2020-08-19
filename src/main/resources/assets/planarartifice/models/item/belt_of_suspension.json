@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "planarartifice:items/belt_of_suspension_new"
+	}
+}

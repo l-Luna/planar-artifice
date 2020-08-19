@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "planarartifice:alkimium_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "planarartifice:alkimium_plate",
+    "count": 3,
+    "data": 0
+  }
+}

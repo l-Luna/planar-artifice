@@ -1,0 +1,15 @@
+{
+    "forge_marker": 1,
+    "defaults":
+    {
+        "model": "planarartifice:smelter_aux",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "inventory":[{}],
+        "facing=north":    { "model": "planarartifice:smelter_aux" },
+        "facing=south":    { "model": "planarartifice:smelter_aux", "y": 180 },
+        "facing=east":     { "model": "planarartifice:smelter_aux", "y": 90 },
+        "facing=west":     { "model": "planarartifice:smelter_aux", "y": 270 }
+    }
+}

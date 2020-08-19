@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",    
+    "overrides": [
+        {
+            "predicate": { "focus": 0 },
+            "model": "planarartifice:item/caster_bismuth_model"
+        },
+        {
+            "predicate": { "focus": 1 },
+            "model": "planarartifice:item/caster_bismuth_focus_model"
+        }
+    ]
+}

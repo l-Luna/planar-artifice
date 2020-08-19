@@ -1,0 +1,14 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "planarartifice:alkimium_block",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "planarartifice:alkimium_ingot",
+    "count": 9,
+    "data": 0
+  }
+}
